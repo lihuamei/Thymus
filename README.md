@@ -5,7 +5,7 @@ Unraveling the spatial organization and development of human thymocytes through 
 	<img src="vignette_files/Thymus.jpg" alt="Resized Image" width="800">
 </p>
 
-<b> All the analysis codes used in our manuscript are provided in the `source.code` directory. </b>
+<b> All the analysis codes used in our manuscript are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the URL: https://ngdc.cncb.ac.cn/bioproject/ </b>
 
 ## TSO-His
 
@@ -15,10 +15,19 @@ TSO-his is a specialized tool designed for the identification of the cortex, med
 	<img src="vignette_files/TSO.His.jpg" alt="Resized Image" width="800">
 </p>
 
-### 1. How to install
+## 1. How to install
 
 ``` r
 library(devtools)
 install_github("lihuamei/Thymus/thymusTSO")
 
-```  
+``` 
+
+## 2. Loading the packages and testing
+``` r
+library(thymusTSO)
+sp.obj <- system.file('data/thymus_T2.RDS', package = 'thymusTSO') %>% readRDS
+sp.obj <- tsoHis(sp.obj) %>% {.[[1]]}
+SpatialPlot(sp.obj, group.by = 'HE.Labels')
+
+``` 
