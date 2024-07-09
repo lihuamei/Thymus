@@ -50,7 +50,7 @@ fitDistLinesByWindows(sp.obj, plot.tar = c('CCL25', 'CCL19', 'CD19', 'RAG1'), wi
 sp.obj <- tsoHis(sp.obj, call.xgb = TRUE)
 
 ``` 
-## Session infos
+## 3. Session infos
 ```r
 > sessionInfo()
 R version 4.2.2 (2022-10-31 ucrt)
@@ -117,3 +117,5 @@ loaded via a namespace (and not attached):
 [149] irlba_2.3.5.1          e1071_1.7-13           future.apply_1.11.1   
 
 ```
+## 4. Contact
+Please feel free to contact us at the following email address: li_hua_mei@163.com.
