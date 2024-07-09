@@ -5,7 +5,7 @@ Unraveling the spatial organization and development of human thymocytes through 
 	<img src="vignette_files/Thymus.jpg" alt="Resized Image" width="800">
 </p>
 
-<b> All the analysis codes used in our manuscript are provided in the source.code directory. </b>
+<b> All the analysis codes used in our manuscript are provided in the `source.code` directory. </b>
 
 ## TSO-His
 
@@ -14,3 +14,11 @@ TSO-his is a specialized tool designed for the identification of the cortex, med
 <p align="center">
 	<img src="vignette_files/TSO.His.jpg" alt="Resized Image" width="800">
 </p>
+
+### Installation
+
+``` r
+library(devtools)
+install_github("lihuamei/Thymus/thymusTSO")
+
+```  
