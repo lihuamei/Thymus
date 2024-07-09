@@ -1,0 +1,8 @@
+#!/bin/bash -x
+#PBS -N D1
+#PBS -l nodes=1:ppn=20
+#PBS -j oe
+#PBS -q batch
+
+DATA_DIR="TM0902G-F10"
+velocyto run10x -m /public/home/glht01/projects/Thymus/2.code/configs/human_allTracks.gtf /public/home/glht01/projects/Thymus/transfer/XQ/thymus_results_11.29.2020/$DATA_DIR /public/home/glht01/softwares/cellranger/ref/refdata-cellranger-GRCh38-3.0.0/genes/genes.gtf -@ 10 --samtools-memory 24000

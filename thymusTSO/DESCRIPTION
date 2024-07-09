@@ -1,0 +1,19 @@
+Package: thymusTSO
+Title: Thymus Spatial Transcriptomics: Mapping Individual Cells and Distinguishing Cortical and Medullary Regions.
+Version: 1.0.0
+Date: 2024-07-08
+Authors: c(person("Li", "Huamei", "li_hua_mei@163.com", role = c("aut"), comment = c(ORCID = "0009-0009-0112-0972")))
+Maintainer: Huamei Li <li_hua_mei@163.com>
+Description: Identifying cortical and medullary areas in thymus spatial transcriptomics (Seq-based ST) data, and then mapping individual cells to spatial locations.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends:
+    MASS,
+	tidyr,
+	dplyr,
+	Seurat,
+	splines,
+	ggplot2,
+	DiagrammeR
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
