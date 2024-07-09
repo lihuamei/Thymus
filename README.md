@@ -11,7 +11,7 @@ Unraveling the spatial organization and development of human thymocytes through 
 
 ## 2. Citation
 Please cite the publication: ***Li et al. Unraveling the spatial organization and development of human thymocytes through integration of spatial transcriptomics and single-cell multi-omics profiling[J]. Nature communication, 2024.***<br>
-## 3. TSO-His
+# TSO-His
 
 TSO-his is a specialized tool designed for the identification of the cortex, medulla, and corticomedullary junction regions in thymic ST sections. This tool leverages statistical testing and network search algorithms to achieve its functionality.
 
