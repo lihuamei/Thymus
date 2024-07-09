@@ -5,15 +5,15 @@ Unraveling the spatial organization and development of human thymocytes through 
 	<img src="vignette_files/Thymus.jpg" alt="Resized Image" width="800">
 </p>
 
-Data Availability
+## 1. Data Availability
 ---------------------
 
 <b> All the analysis codes used in our study are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the provided URL: https://ngdc.cncb.ac.cn/bioproject/ </b>
 
-Citation
+## 2. Citation
 ---------------------
 Please cite the publication: ***Li et al. Unraveling the spatial organization and development of human thymocytes through integration of spatial transcriptomics and single-cell multi-omics profiling[J]. Nature communication, 2024.***<br>
-## TSO-His
+## 3. TSO-His
 
 TSO-his is a specialized tool designed for the identification of the cortex, medulla, and corticomedullary junction regions in thymic ST sections. This tool leverages statistical testing and network search algorithms to achieve its functionality.
 
@@ -21,7 +21,7 @@ TSO-his is a specialized tool designed for the identification of the cortex, med
 	<img src="vignette_files/TSO.His.jpg" alt="Resized Image" width="800">
 </p>
 
-## 1. How to install
+### 3.1 How to install
 
 ``` r
 library(devtools)
@@ -29,7 +29,7 @@ install_github("lihuamei/Thymus/thymusTSO")
 
 ``` 
 
-## 2. Loading `thymusTSO` package and testing
+### 3.2 Loading `thymusTSO` package and testing
 ``` r
 library(thymusTSO)
 ```
@@ -54,7 +54,7 @@ fitDistLinesByWindows(sp.obj, plot.tar = c('CCL25', 'CCL19', 'CD19', 'RAG1'), wi
 sp.obj <- tsoHis(sp.obj, call.xgb = TRUE)
 
 ``` 
-## 3. Session infos
+### 3.3 Session infos
 ```r
 > sessionInfo()
 R version 4.2.2 (2022-10-31 ucrt)
