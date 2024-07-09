@@ -5,11 +5,10 @@ Unraveling the spatial organization and development of human thymocytes through 
 	<img src="vignette_files/Thymus.jpg" alt="Resized Image" width="800">
 </p>
 
-### Data Availability
+### Data Availability and Citation
 
 All the analysis codes used in our study are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the provided URL: https://ngdc.cncb.ac.cn/bioproject/.
-
-### Citation
+<p> </p>
 Please cite the publication: ***Li et al. Unraveling the spatial organization and development of human thymocytes through integration of spatial transcriptomics and single-cell multi-omics profiling[J]. Nature communication, 2024.***<br>
 # TSO-His
 
@@ -19,7 +18,7 @@ TSO-his is a specialized tool designed for the identification of the cortex, med
 	<img src="vignette_files/TSO.His.jpg" alt="Resized Image" width="800">
 </p>
 
-### How to install
+### 1. How to install
 
 ``` r
 library(devtools)
@@ -27,7 +26,7 @@ install_github("lihuamei/Thymus/thymusTSO")
 
 ``` 
 
-### Loading `thymusTSO` package and testing
+### 2. Loading `thymusTSO` package and testing
 ``` r
 library(thymusTSO)
 ```
