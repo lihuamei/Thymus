@@ -34,7 +34,7 @@ library(thymusTSO)
 
 sp.obj <- system.file('data/thymus_T2.RDS', package = 'thymusTSO') %>% readRDS
 sp.obj <- tsoHis(sp.obj)
-SpatialPlot(sp.obj[[1]], group.by = 'HE.Labels', cols = c('grey', 'red', 'green', 'pink', 'yellow') %>% `names<-`(unique(sp.obj$HE.Labels))
+SpatialPlot(sp.obj[[1]], group.by = 'HE.Labels', cols = c('grey', 'red', 'green', 'pink', 'yellow') %>% `names<-`(unique(sp.obj[[1]]$HE.Labels))
 
 fitDistLinesByGlm(sp.obj, plot.tar = 'CCL25', degree = 10)
 fitDistLinesByWindows(sp.obj, plot.tar = c('CCL25', 'CCL19', 'CD19', 'RAG1'), win = 20)
