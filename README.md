@@ -37,3 +37,10 @@ fitDistLinesByWindows(sp.obj, plot.tar = c('CCL25', 'CCL19', 'CD19', 'RAG1'), wi
 <p align="center">
 	<img src="vignette_files/exam.1.jpg" alt="Resized Image" width="800">
 </p>
+
+If calling XGBoost model for predicting cortical and medullary spots, set `call.xgb = TRUE`.
+
+``` r
+sp.obj <- tsoHis(sp.obj, call.xgb = TRUE)
+
+``` 
