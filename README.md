@@ -32,8 +32,6 @@ install_github("lihuamei/Thymus/thymusTSO")
 ``` r
 library(thymusTSO)
 ```
-<b> Runing `thymusTSO` using test thymus ST dataset. </b>
-
 ``` r
 sp.obj <- system.file('data/thymus_T2.RDS', package = 'thymusTSO') %>% readRDS
 sp.obj <- tsoHis(sp.obj)
