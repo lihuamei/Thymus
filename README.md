@@ -5,7 +5,7 @@ Unraveling the spatial organization and development of human thymocytes through 
 	<img src="vignette_files/Thymus.jpg" alt="Resized Image" width="800">
 </p>
 
-<b> All the analysis codes used in our manuscript are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the URL: https://ngdc.cncb.ac.cn/bioproject/ </b>
+<b> All the analysis codes used in our manuscript are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the provided URL: https://ngdc.cncb.ac.cn/bioproject/ </b>
 
 ## TSO-His
 
@@ -28,6 +28,9 @@ install_github("lihuamei/Thymus/thymusTSO")
 library(thymusTSO)
 sp.obj <- system.file('data/thymus_T2.RDS', package = 'thymusTSO') %>% readRDS
 sp.obj <- tsoHis(sp.obj) %>% {.[[1]]}
-SpatialPlot(sp.obj, group.by = 'HE.Labels')
+SpatialPlot(sp.obj, group.by = 'HE.Labels', cols = c('grey', 'red', 'green', 'pink', 'yellow') %>% `names<-`(unique(sp.obj$HE.Labels))
 
 ``` 
+<p align="center">
+	<img src="vignette_files/exam.1.jpg" alt="Resized Image" width="400">
+</p>
