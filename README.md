@@ -5,7 +5,7 @@ Unraveling the spatial organization and development of human thymocytes through 
 	<img src="vignette_files/Thymus.jpg" alt="Resized Image" width="800">
 </p>
 
-<b> All the analysis codes used in our manuscript are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the provided URL: https://ngdc.cncb.ac.cn/bioproject/ </b>
+<b> All the analysis codes used in our study are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the provided URL: https://ngdc.cncb.ac.cn/bioproject/ </b>
 
 ## TSO-His
 
@@ -40,7 +40,7 @@ fitDistLinesByWindows(sp.obj, plot.tar = c('CCL25', 'CCL19', 'CD19', 'RAG1'), wi
 	<img src="vignette_files/exam.1.jpg" alt="Resized Image" width="800">
 </p>
 
-If calling XGBoost model for predicting cortical and medullary spots, please set `call.xgb = TRUE`.
+<b> If calling XGBoost model for predicting cortical and medullary spots, please set `call.xgb = TRUE`. </b>
 
 ``` r
 sp.obj <- tsoHis(sp.obj, call.xgb = TRUE)
