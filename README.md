@@ -7,7 +7,7 @@ Unraveling the spatial organization and development of human thymocytes through 
 
 ### Data Availability
 
-<b> All the analysis codes used in our study are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the provided URL: https://ngdc.cncb.ac.cn/bioproject/ </b>
+All the analysis codes used in our study are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the provided URL: https://ngdc.cncb.ac.cn/bioproject/.
 
 ### Citation
 Please cite the publication: ***Li et al. Unraveling the spatial organization and development of human thymocytes through integration of spatial transcriptomics and single-cell multi-omics profiling[J]. Nature communication, 2024.***<br>
