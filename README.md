@@ -5,7 +5,7 @@ Unraveling the spatial organization and development of human thymocytes through 
 	<img src="vignette_files/Thymus.jpg" alt="Resized Image" width="800">
 </p>
 
-### Data Availability and Citation
+### ***Data Availability and Citation***
 
 All the analysis codes used in our study are provided in the `source.code` directory. Raw and preprocessed data can be obtained from the provided URL: https://ngdc.cncb.ac.cn/bioproject/.
 
