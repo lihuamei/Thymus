@@ -6,7 +6,8 @@
 \usage{
 tsoHis(
   obj.st.lst,
-  medulla.genes,
+  medulla.genes = NULL,
+  call.xgb = FALSE,
   p.cut = 1e-05,
   module.size = 10,
   remove.spots = NULL
@@ -16,6 +17,8 @@ tsoHis(
 \item{obj.st.lst}{A list of thymus spatial seurat objects.}
 
 \item{medulla.genes}{A vector of genes associated with the medulla.}
+
+\item{call.xgb}{Call trained XGBoost model or not. Default: FALSE.}
 
 \item{p.cut}{Cutoff p-value to determine significant spots. Default is 1e-5.}
 
@@ -33,5 +36,6 @@ This function identifies medulla and cortex spots and their corresponding bounda
 }
 \examples{
 # Example usage:
-# obj.st.lst <- tsoHis(obj.st.lst, medulla.genes)
+sp.obj <- system.file("data/thymus_T2.RDS", package = "thymusTSO") \%>\% readRDS()
+sp.obj <- tsoHis(sp.obj)
 }

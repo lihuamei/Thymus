@@ -4,12 +4,14 @@
 \alias{calcSpotsDist}
 \title{calcSpotsDist}
 \usage{
-calcSpotsDist(obj, p.cut = 1e-05)
+calcSpotsDist(obj, p.cut = 1e-05, call.xgb = FALSE)
 }
 \arguments{
 \item{obj}{Spatial Seurat object data containing spatial and medulla score information.}
 
 \item{p.cut}{Cutoff value to determine significance of spots based on adjusted p-values, default: 1e-5.}
+
+\item{call.xgb}{Call trained XGBoost model or not. Default: FALSE.}
 }
 \value{
 A list containing Eulerian distance matrix and significant spots.
