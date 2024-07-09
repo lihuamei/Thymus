@@ -31,8 +31,7 @@ install_github("lihuamei/Thymus/thymusTSO")
 ## 2. Loading `thymusTSO` package and testing
 ``` r
 library(thymusTSO)
-```
-``` r
+
 sp.obj <- system.file('data/thymus_T2.RDS', package = 'thymusTSO') %>% readRDS
 sp.obj <- tsoHis(sp.obj)
 SpatialPlot(sp.obj[[1]], group.by = 'HE.Labels', cols = c('grey', 'red', 'green', 'pink', 'yellow') %>% `names<-`(unique(sp.obj$HE.Labels))
