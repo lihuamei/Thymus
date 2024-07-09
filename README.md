@@ -1,5 +1,5 @@
 # Thymus
-Unraveling the spatial organization and development of human thymocytes through integration of spatial transcriptomics and single-cell multi-omics profiling
+<b> Unraveling the spatial organization and development of human thymocytes through integration of spatial transcriptomics and single-cell multi-omics profiling. </b>
 
 <p align="center">
 	<img src="vignette_files/Thymus.jpg" alt="Resized Image" width="800">
