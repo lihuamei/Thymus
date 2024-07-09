@@ -20,7 +20,7 @@ TSO-his is a specialized tool designed for the identification of the cortex, med
 	<img src="vignette_files/TSO.His.jpg" alt="Resized Image" width="800">
 </p>
 
-### 1. How to install
+## 1. How to install
 
 ``` r
 library(devtools)
@@ -28,7 +28,7 @@ install_github("lihuamei/Thymus/thymusTSO")
 
 ``` 
 
-### 2. Loading `thymusTSO` package and testing
+## 2. Loading `thymusTSO` package and testing
 ``` r
 library(thymusTSO)
 ```
@@ -51,7 +51,7 @@ fitDistLinesByWindows(sp.obj, plot.tar = c('CCL25', 'CCL19', 'CD19', 'RAG1'), wi
 sp.obj <- tsoHis(sp.obj, call.xgb = TRUE)
 
 ``` 
-### Session infos
+## Session infos
 ```r
 > sessionInfo()
 R version 4.2.2 (2022-10-31 ucrt)
