@@ -23,7 +23,7 @@ install_github("lihuamei/Thymus/thymusTSO")
 
 ``` 
 
-## 2. Loading the packages and testing
+## 2. Loading `thymusTSO` package and testing
 ``` r
 library(thymusTSO)
 sp.obj <- system.file('data/thymus_T2.RDS', package = 'thymusTSO') %>% readRDS
@@ -38,7 +38,7 @@ fitDistLinesByWindows(sp.obj, plot.tar = c('CCL25', 'CCL19', 'CD19', 'RAG1'), wi
 	<img src="vignette_files/exam.1.jpg" alt="Resized Image" width="800">
 </p>
 
-If calling XGBoost model for predicting cortical and medullary spots, set `call.xgb = TRUE`.
+If calling XGBoost model for predicting cortical and medullary spots, please set `call.xgb = TRUE`.
 
 ``` r
 sp.obj <- tsoHis(sp.obj, call.xgb = TRUE)
