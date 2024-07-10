@@ -119,4 +119,4 @@ loaded via a namespace (and not attached):
 
 ```
 ## 4. Contact
-Please feel free to contact us at the following email address: qingx@tcrximmune.cn; li_hua_mei@163.com.
+Please feel free to contact us at the following email addresses: qingx@tcrximmune.cn; li_hua_mei@163.com.
