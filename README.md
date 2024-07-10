@@ -20,7 +20,7 @@ TSO-his is a specialized tool designed for the identification of the cortex, med
 	<img src="vignette_files/TSO.His.jpg" alt="Resized Image" width="800">
 </p>
 
-## 1. How to install
+## 1. How to install?
 
 ``` r
 library(devtools)
