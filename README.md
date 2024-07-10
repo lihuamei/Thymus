@@ -118,5 +118,5 @@ loaded via a namespace (and not attached):
 [149] irlba_2.3.5.1          e1071_1.7-13           future.apply_1.11.1   
 
 ```
-## 4. Contact
+## 4. Contact us
 Please feel free to contact us at the following email addresses: qingx@tcrximmune.cn; li_hua_mei@163.com.
