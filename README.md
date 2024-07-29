@@ -7,7 +7,7 @@
 
 ### ***Data Availability and Citation***
 
-(1). All the analysis codes used in our study are provided in the `source.code` directory. Raw sequencing and preprocessed data can be obtained from the provided URL: https://ngdc.cncb.ac.cn/bioproject/.
+(1). All the analysis codes used in our study are provided in the `source.code` directory. Raw sequencing and preprocessed data can be obtained from the provided of our paper.
 
 (2). <b>【CITATION】</b>: ***Li et al. Unraveling the spatial organization and development of human thymocytes through integration of spatial transcriptomics and single-cell multi-omics profiling[J]. Nature communications, 2024.***<br>
 
