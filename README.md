@@ -119,4 +119,4 @@ loaded via a namespace (and not attached):
 
 ```
 ## 4. Contact us
-Please feel free to contact us at the following email addresses: li_hua_mei@163.com.
+Please feel free to contact us at the following email address: li_hua_mei@163.com.
